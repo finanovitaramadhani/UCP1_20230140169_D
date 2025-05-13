@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Kontak - SayThree</title>
+  <link rel="stylesheet" href="contact.css">
+  <script>
+    function submitForm() {
+      alert("Pesan Anda terkirim!");
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Hubungi Kami</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="about.html">Tentang</a></li>
+        <li><a href="features.html">Fitur</a></li>
+        <li><a href="contact.html">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <form onsubmit="submitForm(); return false;">
+    <label>Nama:</label><br>
+    <input type="text" required><br>
+    <label>Email:</label><br>
+    <input type="email" required><br>
+    <label>Minat Bahasa:</label><br>
+    <input type="text"><br><br>
+    <button type="submit">Kirim</button>
+  </form>
+
+  <footer>
+    <p>@ 2025 SayThree</p>
+  </footer>
+</body>
+</html>
